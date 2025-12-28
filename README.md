@@ -141,5 +141,7 @@ Sources Used: research_paper.pdf - Pages 7, 12, 15
 
 ### RAG Pipeline Overview
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/0a82432d-13c0-4d0c-ac94-20f2bab376ef" />
+<img width="414" height="592" alt="image" src="https://github.com/user-attachments/assets/bbeae8f6-8ba1-44f6-886d-13ac74c99ce9" />
+
+
 
