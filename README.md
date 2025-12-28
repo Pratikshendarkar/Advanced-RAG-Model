@@ -10,7 +10,7 @@
 
 **An intelligent, production-ready document chat application powered by state-of-the-art Retrieval-Augmented Generation (RAG) techniques**
 
-[Live Demo](#-demo) • [Features](#-features) • [Installation](#-installation) • [Documentation](#-usage) • [Architecture](#-architecture)
+[Live Demo](#-demo) • [Features](#-features) • [Architecture](#-architecture)
 
 </div>
 
