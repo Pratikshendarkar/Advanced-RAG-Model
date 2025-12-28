@@ -108,3 +108,30 @@ Unlike basic PDF chatbots, our system implements **state-of-the-art retrieval te
 - 📑 **Source Inspector**: View exact text chunks used for answers
 - 🗑️ **Chat Management**: Clear history, start fresh conversations
 - 📈 **Statistics Dashboard**: Track usage metrics
+
+
+
+## 🚀 Demo
+
+<img width="1882" height="935" alt="image" src="https://github.com/user-attachments/assets/a2ece399-2755-4791-a76a-ab4ff4f25ecb" />
+
+
+### Sample Conversation
+```
+User: What are the key findings in the research paper?
+
+Bot: Based on the research paper, the key findings are:
+
+1. **Performance Improvement**: The proposed model achieved 
+   15% higher accuracy compared to baseline methods (Page 7)
+
+2. **Efficiency Gains**: Processing time reduced by 40% 
+   through optimized architecture (Page 12)
+
+3. **Scalability**: Successfully tested on datasets up to 
+   1M samples without degradation (Page 15)
+
+These findings are detailed in the Results section starting 
+from page 7.
+
+Sources Used: research_paper.pdf - Pages 7, 12, 15
