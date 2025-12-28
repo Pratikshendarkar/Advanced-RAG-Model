@@ -29,6 +29,9 @@ Unlike basic PDF chatbots, our system implements **state-of-the-art retrieval te
 - **Intelligent Query Optimization** – AI-powered query enhancement and decomposition  
 - **Contextual Compression** – Extracts only the most relevant information  
 - **Source Attribution** – Full transparency with page-level citations  
+- **🆕 Document Transformation** – AI-powered editing, reformatting, summarization, and translation
+- **🆕 Presentation Generation** – Auto-create professional PowerPoint presentations from PDFs
+- **🆕 Q&A Generation** – Generate comprehensive study materials and quizzes
 
 ---
 
@@ -59,6 +62,66 @@ Unlike basic PDF chatbots, our system implements **state-of-the-art retrieval te
 - 📐 Cosine similarity  
 - 🗄️ FAISS Vector DB  
 - 🔬 768D embeddings  
+
+---
+
+### 🎨 **Document Transformation Suite** 🆕
+
+Transform your PDFs with AI-powered editing capabilities:
+
+| Type | Description | Use Case |
+|------|-------------|----------|
+| **📝 Reformat** | Better structure & organization | Messy docs → Clean reports |
+| **✍️ Rewrite** | Improve clarity & grammar | Drafts → Professional docs |
+| **📊 Summarize** | Condense to key points | 50 pages → 2-page summary |
+| **➕ Expand** | Add details & examples | Notes → Full document |
+| **🔍 Extract** | Pull specific information | Full doc → Key data |
+| **🌍 Translate** | Convert to any language | English → Spanish/French |
+| **🎯 Custom** | Your instructions | Resume → Cover letter |
+
+**Features:**
+- ✅ Download as PDF or TXT
+- ✅ View before/after comparison
+- ✅ Professional formatting
+- ✅ Preserves important information
+
+---
+
+### 🎨 **Presentation Generation** 🆕
+
+Auto-create professional PowerPoint presentations from your PDFs:
+
+- **📑 5-20 customizable slides**
+- **🎭 4 style presets**: Professional, Academic, Creative, Minimalist
+- **📝 Smart content extraction**: Text → Bullet points
+- **🎤 Speaker notes** for each slide
+- **🎨 Professional formatting**: Consistent fonts, colors, spacing
+- **💾 Download as .pptx**
+
+**Perfect for:**
+- Academic presentations from research papers
+- Business decks from reports
+- Training materials from documentation
+- Lecture slides from textbooks
+
+---
+
+### ❓ **Q&A Generation** 🆕
+
+Generate comprehensive study materials and assessment tools:
+
+- **📝 5-50 customizable Q&A pairs**
+- **📊 3 difficulty levels**: Easy, Medium, Hard
+- **🎯 3 question types**: Factual, Conceptual, Analytical
+- **✅ Complete answers** (2-4 sentences each)
+- **📄 Download formats**: PDF and TXT
+- **👀 Preview before download**
+
+**Use cases:**
+- Students: Create study guides from textbooks
+- Teachers: Generate quizzes and exam questions
+- Trainers: Build assessment materials
+- Compliance: Create knowledge checks from policies
 
 ---
 
@@ -142,4 +205,73 @@ Unlike basic PDF chatbots, our system implements **state-of-the-art retrieval te
 
 ---
 
-⭐ **If you like this project, consider starring the repo!**  
+## 📦 Installation
+
+### Prerequisites
+- Python 3.11+
+- Google API Key ([Get one here](https://aistudio.google.com/apikey))
+
+### Setup
+```bash
+# Clone repository
+git clone https://github.com/PratikShendarkar/advanced-rag-pdf-chat.git
+cd advanced-rag-pdf-chat
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Create .env file
+echo "GOOGLE_API_KEY=your_api_key_here" > .env
+
+# Run application
+streamlit run app.py
+```
+
+---
+
+## 🛠️ Document Tools Usage
+
+### 1. Transform Document
+1. Upload PDFs → Click "Process"
+2. Sidebar → Select "📝 Transform Document"
+3. Choose type (Reformat/Rewrite/Summarize/Custom)
+4. Click "Transform"
+5. Download PDF or TXT
+
+### 2. Create Presentation
+1. Upload PDFs → Click "Process"
+2. Sidebar → Select "🎨 Create Presentation"
+3. Set slides (5-20) & style
+4. Click "Generate Presentation"
+5. Download .pptx
+
+### 3. Generate Q&A
+1. Upload PDFs → Click "Process"
+2. Sidebar → Select "❓ Generate Q&A"
+3. Set number (5-50) & difficulty
+4. Click "Generate Q&A"
+5. Download PDF or TXT
+
+---
+
+## 🔧 Technology Stack
+
+- **Frontend**: Streamlit 1.39.0
+- **LLM**: Google Gemini 2.5 Flash
+- **Embeddings**: all-MiniLM-L6-v2 (768-dim)
+- **Re-ranker**: ms-marco-MiniLM-L-6-v2
+- **Vector DB**: FAISS
+- **PDF Processing**: PyPDF2, ReportLab
+- **Presentations**: python-pptx
+
+
+
+---
+
+⭐ **If you like this project, consider starring the repo!**
+
+</div>
