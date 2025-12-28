@@ -1,4 +1,4 @@
-# 🚀 Advanced RAG PDF Chat - Enterprise-Grade Document Intelligence System
+# 🚀 Advanced RAG Model - Enterprise-Grade Document Intelligence System
 
 <div align="center">
 
