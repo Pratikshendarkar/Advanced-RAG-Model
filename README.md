@@ -1,4 +1,4 @@
-# 🚀 Advanced RAG Model - Enterprise-Grade Document Intelligence System
+# 🚀 Advanced RAG Model: An Agentic LLM-Driven Retrieval-Augmented Document Intelligence System
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 ![AI Powered](https://img.shields.io/badge/AI-Powered-orange?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.39.0-red.svg?style=for-the-badge&logo=streamlit)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
+
 
 **An intelligent, production-ready document chat application powered by state-of-the-art Retrieval-Augmented Generation (RAG) techniques**
 
